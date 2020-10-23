@@ -1,0 +1,148 @@
+body {
+    text-align: center;
+    font-family: roc-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.button-container {
+padding-top: 30px;
+  background-image: url('images/BeerAPI.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+.tag {
+  text-align: left;
+}
+.container {
+    margin: 10px auto;
+    flex: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.img-container {
+ height: 300px;
+  flex: 35%;
+  padding-top: 30px;
+}
+
+.description-container {
+  flex: 65%;
+  padding-right: 60px;
+
+}
+
+a {
+  display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    opacity: 100%;
+    padding: 15px 30px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-family: roc-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.middle-copy {
+  color: #fff;
+font-size: 35px;
+font-family: roc-grotesk, sans-serif;
+font-style: normal;
+font-weight: 500;
+
+
+}
+.description {
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: roc-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    padding: 0;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: roc-grotesk-compressed, sans-serif;
+ font-weight: 600;
+ font-style: normal;
+ padding: 0;
+}
+
+.abv {
+   color: #000;
+   font-size: 18px;
+   font-family: roc-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   text-align: left;
+   padding: 0;
+}
+
+.name {
+  text-align: left;
+  font-family: roc-grotesk-compressed, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 50px;
+  padding: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .container {
+     flex: 100%;
+     flex-direction: column;
+     justify-content: center;
+
+   }
+
+   .img-container {
+     flex: 80%;
+   }
+
+   .description-container {
+     flex: 80%;
+     padding-left: 10px;
+     padding-right: 10px;
+   }
+
+   .description {
+     text-align: center;
+   }
+
+   .abv {
+      text-align: center;
+   }
+
+   .name {
+     text-align: center;
+   }
+
+   .tag {
+     text-align: center;
+   }
+
+
+  }
